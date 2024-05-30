@@ -1,0 +1,23 @@
+{
+  "name": "cloc-everywhere",
+  "type": "module",
+  "main": "cloc-everywhere.cli.ts",
+  "version": "0.0.2",
+  "scripts": {
+    "pub": "npm version patch --force && npm publish"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.3",
+    "@types/node": "^20.12.7"
+  },
+  "license": "ISC",
+  "description": "Adds information comments to all folders",
+  "bin": {
+    "cloce": "./build/megarepo.cli.js",
+    "cloc-everywhere": "./build/megarepo.cli.js"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
