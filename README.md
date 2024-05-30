@@ -18,3 +18,9 @@ MacOS only:
 Result:
 
 ![](result.png)
+
+# TODO
+
+- `--recursive` option: add comments on every folder recursively
+- custom `--exclude-dir`
+- custom `--include-ext`
