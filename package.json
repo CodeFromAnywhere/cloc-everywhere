@@ -13,8 +13,8 @@
   "license": "ISC",
   "description": "Adds information comments to all folders",
   "bin": {
-    "cloce": "./build/megarepo.cli.js",
-    "cloc-everywhere": "./build/megarepo.cli.js"
+    "cloce": "./cloc-everywhere.cli.ts",
+    "cloc-everywhere": "./cloc-everywhere.cli.ts"
   },
   "dependencies": {},
   "peerDependencies": {

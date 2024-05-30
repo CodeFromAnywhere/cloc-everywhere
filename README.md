@@ -1,15 +1,21 @@
 # cloc-everywhere
 
+# Usage
+
+`bunx cloc-everywhere [path]`
+
+# Installation
+
 To install dependencies:
 
 ```bash
 bun install
 ```
 
-To run:
+To run (in any folder):
 
 ```bash
-bun run cloc-everywhere.cli.ts
+cloce .
 ```
 
-This project was created using `bun init` in bun v1.1.10. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+(change `.` to an absolute or relative path)
