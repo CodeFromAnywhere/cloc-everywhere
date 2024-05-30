@@ -24,7 +24,8 @@ await Promise.all(
             | { nFiles: number; blank: number; comment: number; code: number }
             | undefined;
         }
-      | undefined = await $`cloc ${p}/src ${p}/app --json`.json();
+      | undefined =
+      await $`cloc ${p} --exclude-dir node_modules,build,out,.next,.venv --include-ext ts,tsx,js,jsx,md,json,sh,toml,py,sql,txt --json`.json();
 
     if (!result) {
       return;
