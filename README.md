@@ -11,19 +11,3 @@ CLI that writes a comment about lines of code on all folders.
 Result:
 
 ![](result.png)
-
-# Installation
-
-To install dependencies:
-
-```bash
-bun install
-```
-
-To run (in any folder):
-
-```bash
-cloce .
-```
-
-(change `.` to an absolute or relative path)
