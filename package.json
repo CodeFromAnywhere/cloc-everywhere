@@ -2,7 +2,7 @@
   "name": "cloc-everywhere",
   "type": "module",
   "main": "cloc-everywhere.cli.ts",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "scripts": {
     "pub": "npm version patch --force && npm publish"
   },
