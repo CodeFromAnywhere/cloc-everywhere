@@ -25,7 +25,7 @@ await Promise.all(
             | undefined;
         }
       | undefined =
-      await $`cloc ${p} --exclude-dir node_modules,build,out,.next,.venv --include-ext ts,tsx,js,jsx,md,sh,toml,py,sql,txt,json --exclude-list-file=package-lock.json --json`.json();
+      await $`cloc ${p} --exclude-dir node_modules,build,out,.next,.venv --include-ext ts,tsx,js,jsx,md,sh,toml,py,sql,txt,json --exclude-list-file=${p}/package-lock.json --json`.json();
 
     if (!result) {
       return;
